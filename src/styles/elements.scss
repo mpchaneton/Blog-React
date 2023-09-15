@@ -1,0 +1,36 @@
+@use "tools";
+
+
+body {
+  font-family: bellota;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-fondo-blanco);
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.main-container {
+  @include tools.container-width();
+  padding: var(--container-padding);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+body>footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: var(--color-flor-verde-clara);
+  width: 100%;
+  height: 60px;
+}

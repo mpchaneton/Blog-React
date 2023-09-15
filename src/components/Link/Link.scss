@@ -1,0 +1,14 @@
+.text-button {
+    color: var(--color--flor-verde);
+
+    &.is-active {
+        color:var(--color-gris);
+       }
+}
+
+
+.text-button-md {
+    font-size: 15px;
+    line-height: 19px;
+
+}

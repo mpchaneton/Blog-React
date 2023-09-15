@@ -1,0 +1,15 @@
+.input{
+    padding: 12px;
+    max-width:290px;
+    height:48px;
+    background-color: var(--color-gris-claro);
+    border: 1px solid transparent ;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 22px;
+}
+
+input::placeholder{
+    color:var(--color-gris-oscuro);
+}

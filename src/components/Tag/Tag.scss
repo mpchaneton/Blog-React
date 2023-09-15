@@ -1,0 +1,21 @@
+.tag{
+padding: 3px;
+border: 2px solid var(--color-flor-verde);
+border-radius: 2px;
+font-size: 13px;
+
+
+}
+
+.tag a{
+    color: var(--color-gris);
+}
+
+.tag-primary{
+    background-color: var(--color-gris-claro);
+}
+
+
+.tag-secondary{
+    background-color: var(--color-gris-claro);
+}
